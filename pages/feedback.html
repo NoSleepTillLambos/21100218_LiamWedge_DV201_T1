@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback page</title>
+
+
+    <!-- css link-->
+    <link rel="stylesheet" href="../css/main.css">
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> 
+
+      
+    <!-- JAVASCRIPT link-->
+    <script src="../js/index.js"></script>
+
+    
+
+    <link rel="icon" type="image/x-icon" href="../img/1546090478.png">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1D82TGYKCS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1D82TGYKCS');
+    </script>
+</head>
+<body>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../pages/scores.html">Standings</a></li>
+        <li><a href="#">Feedback</a></li>
+        
+    </ul>
+
+    <div class="feedback">
+        <h2>Feedback</h2>
+        <div class="feedback-input">
+            <form action="" method="POST">
+                <label for="fullName">Your Name</label> <br>
+                <input type="text" name="fullName"><br><br>
+            
+                <label for="email">Your E-mail</label> <br>
+                <input type="text" name="email"><br>
+                <br>
+            
+                <label for="comments">Your Comments</label> <br>
+                <textarea name="comments"></textarea><br><br>
+            
+                <input type="submit" value="Submit">
+                <input type="reset" value="Clear">
+            </form>
+        </div> <!-- FEEDBACK FORM -->
+        
+    </div>
+
+
+    <!-- FOOTER AND COPYRIGHT INFO -->
+    <footer  style="color: black;" ><h4> &copy; Football tracker</h4></footer>
+</body>
+</html>

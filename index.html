@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football | Quizzes and Standings</title>
+
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- JQUERY-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">
+    </script> 
+    
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="./img/1546090478.png">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1D82TGYKCS"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1D82TGYKCS');
+    </script>
+    
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="./pages/scores.html">Standings</a></li>
+        <li><a href="./pages/feedback.html">Feedback</a></li>
+        
+    </ul>
+
+    
+    <div class="intro-block">
+        
+        <div class="title" style="text-align: center; "> <h2 style="margin-top: 10px;">Welcome to football tracker</h2></div>
+    </div>
+
+
+    <div class="prem-photo" style="float: left; margin-left: 600px;"><img src="./img/i.png" alt="premier-league"></div>
+        
+    <div class="description-con" style="margin-bottom: 70px;">
+        <img src="./img/salah-removebg-preview.png" alt="salah-removebg-preview">
+        <img src="./img/harry_kane-removebg-preview.png" alt="harry_kane-removebg-preview">
+        <img src="./img/kante-removebg-preview.png" alt="kante-removebg-preview">
+        <img src="./img/wilfried-zaha-removebg-preview.png" alt="wilfried-zaha-removebg-preview">
+    
+    </div>
+    
+
+    <h2 style="text-align: center; margin-bottom: 20px; color: green;"> &#8595; Take the quiz and test your footballing knowledge! &#8595;</h2>
+
+    <!-- QUIZ-->
+    <div class="quiz-container" id="quiz">
+        
+        <div class="quiz-header">
+            <h2 id="question">Quiz time!</h2>
+            <ol>
+                <ol>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_text">answer</label>
+                </ol>
+
+                <ol>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_text">answer</label>
+                </ol>
+                
+                <ol>
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c_text">answer</label>
+                </ol>
+
+                <ol>
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="d_text">answer</label>
+                </ol>
+            
+            </ol>
+        </div>
+
+        <button id="submit">Submit answer</button>
+    </div>
+
+
+    <!-- FOOTER AND COPYRIGHT INFO -->
+    <footer style="background-color: #2b2b2b; margin-top: 50px;"><h4> &copy;  Football tracker</h4></footer>
+
+
+    <!-- JS LINK -->
+    <script src="./js/home.js"></script>
+</body>
+</html>
