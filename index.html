@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Football | Quizzes and Standings</title>
 
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
     <link rel="stylesheet" href="./css/main.css">
 
     <!-- JQUERY-->
@@ -36,55 +40,58 @@
     </ul>
 
     
-    <div class="intro-block">
+    <div class="container-fluid">
+        <div class="intro-block">
         
-        <div class="title" style="text-align: center; "> <h2 style="margin-top: 10px;">Welcome to football tracker</h2></div>
-    </div>
-
-
-    <div class="prem-photo" style="float: left; margin-left: 600px;"><img src="./img/i.png" alt="premier-league"></div>
-        
-    <div class="description-con" style="margin-bottom: 70px;">
-        <img src="./img/salah-removebg-preview.png" alt="salah-removebg-preview">
-        <img src="./img/harry_kane-removebg-preview.png" alt="harry_kane-removebg-preview">
-        <img src="./img/kante-removebg-preview.png" alt="kante-removebg-preview">
-        <img src="./img/wilfried-zaha-removebg-preview.png" alt="wilfried-zaha-removebg-preview">
-    
-    </div>
-    
-
-    <h2 style="text-align: center; margin-bottom: 20px; color: green;"> &#8595; Take the quiz and test your footballing knowledge! &#8595;</h2>
-
-    <!-- QUIZ-->
-    <div class="quiz-container" id="quiz">
-        
-        <div class="quiz-header">
-            <h2 id="question">Quiz time!</h2>
-            <ol>
-                <ol>
-                    <input type="radio" name="answer" id="a" class="answer">
-                    <label for="a" id="a_text">answer</label>
-                </ol>
-
-                <ol>
-                    <input type="radio" name="answer" id="b" class="answer">
-                    <label for="b" id="b_text">answer</label>
-                </ol>
-                
-                <ol>
-                    <input type="radio" name="answer" id="c" class="answer">
-                    <label for="c" id="c_text">answer</label>
-                </ol>
-
-                <ol>
-                    <input type="radio" name="answer" id="d" class="answer">
-                    <label for="d" id="d_text">answer</label>
-                </ol>
-            
-            </ol>
+            <div class="title" style="text-align: center; "> <h2 style="margin-top: 10px;">Welcome to football tracker</h2></div>
         </div>
+    
+    
+        <div class="prem-photo" style="float: left; margin-left: 600px;"><img src="./img/i.png" alt="premier-league"></div>
+            
+        <div class="description-con " style="margin-bottom: 70px;">
 
-        <button id="submit">Submit answer</button>
+            <img src="./img/salah-removebg-preview.png" alt="salah-removebg-preview">
+            <img src="./img/harry_kane-removebg-preview.png" alt="harry_kane-removebg-preview">
+            <img src="./img/kante-removebg-preview.png" alt="kante-removebg-preview">
+            <img src="./img/wilfried-zaha-removebg-preview.png" alt="wilfried-zaha-removebg-preview">
+        
+        </div>
+        
+    
+        <h2 style="text-align: center; margin-bottom: 20px; color: green;"> &#8595; Take the quiz and test your footballing knowledge! &#8595;</h2>
+    
+        <!-- QUIZ-->
+        <div class="quiz-container col-md-12 col-sm-4" id="quiz">
+            
+            <div class="quiz-header col">
+                <h2 id="question">Quiz time!</h2>
+                <ol>
+                    <ol>
+                        <input type="radio" name="answer" id="a" class="answer">
+                        <label for="a" id="a_text">answer</label>
+                    </ol>
+    
+                    <ol>
+                        <input type="radio" name="answer" id="b" class="answer">
+                        <label for="b" id="b_text">answer</label>
+                    </ol>
+                    
+                    <ol>
+                        <input type="radio" name="answer" id="c" class="answer">
+                        <label for="c" id="c_text">answer</label>
+                    </ol>
+    
+                    <ol>
+                        <input type="radio" name="answer" id="d" class="answer">
+                        <label for="d" id="d_text">answer</label>
+                    </ol>
+                
+                </ol>
+            </div>
+    
+            <button id="submit">Submit answer</button>
+        </div>
     </div>
 
 
@@ -94,5 +101,8 @@
 
     <!-- JS LINK -->
     <script src="./js/home.js"></script>
+
+    
+
 </body>
 </html>
