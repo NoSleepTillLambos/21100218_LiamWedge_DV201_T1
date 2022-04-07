@@ -1,0 +1,31 @@
+<!-- QUIZ-->
+        <div class="quiz-container col-md-12 col-sm-4" id="quiz">
+            
+            <div class="quiz-header col">
+                <h2 id="question">Quiz time!</h2>
+                <ol>
+                    <ol>
+                        <input type="radio" name="answer" id="a" class="answer">
+                        <label for="a" id="a_text">answer</label>
+                    </ol>
+    
+                    <ol>
+                        <input type="radio" name="answer" id="b" class="answer">
+                        <label for="b" id="b_text">answer</label>
+                    </ol>
+                    
+                    <ol>
+                        <input type="radio" name="answer" id="c" class="answer">
+                        <label for="c" id="c_text">answer</label>
+                    </ol>
+    
+                    <ol>
+                        <input type="radio" name="answer" id="d" class="answer">
+                        <label for="d" id="d_text">answer</label>
+                    </ol>
+                
+                </ol>
+            </div>
+    
+            <button id="submit">Submit answer</button>
+        </div>

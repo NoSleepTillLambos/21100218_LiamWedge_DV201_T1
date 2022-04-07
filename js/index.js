@@ -5,7 +5,7 @@ $(function(){
 
     // ENGLAND HAS AN ID OF 237
 
-    const url = "https://apiv3.apifootball.com/?action=get_standings&league_id=152&APIkey=https://apiv3.apifootball.com/?action=get_teams&league_id=152&APIkey=https://apiv3.apifootball.com/?action=get_statistics&match_id=86392&APIkey=040c086b333363e8f4d255b2e33e8aded53dc8dd695d2cb7b2e21164c37a5ee1"
+    const url = "https://apiv3.apifootball.com/?action=get_standings&league_id=152&APIkey=https://apiv3.apifootball.com/?action=get_teams&league_id=152&APIkey=https://apiv3.apifootball.com/?action=get_statistics&match_id=86392&APIkey=233b53a0b915851daf27443ea9e7fb2d5717974afc19c187e094a80329c527e5"
     $.getJSON(url, function(result){
 
     console.log(result);
