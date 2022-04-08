@@ -37,13 +37,16 @@ const QuizData = [
 const quiz= document.getElementById('quiz')
 const answerEls = document.querySelectorAll('.answer')
 const questionEl = document.getElementById('question')
+
+
+// TEXT CHANGE QUESTIONS 
 const a_text = document.getElementById('a_text')
 const b_text = document.getElementById('b_text')
 const c_text = document.getElementById('c_text')
 const d_text = document.getElementById('d_text')
 const submitBtn = document.getElementById('submit')
 
-
+// LET ALL EQUAL ZERO AT BEGINNING 
 let currentQuiz = 0
 let score = 0
 
@@ -92,7 +95,7 @@ submitBtn.addEventListener('click', () => {
            quiz.innerHTML = `
            <h2>You answered ${score}/${QuizData.length} questions correctly</h2>
 
-           <button onclick="location.reload()" id="reload">Reload</button>
+           <button onclick="location.reload()" id="reload">Reload quiz</button>
            `
        }
     }
